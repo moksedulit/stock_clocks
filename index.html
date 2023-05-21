@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            button.active p{
+                border-bottom: 2px solid #1E7BE2;
+                color: #363946;
+            }
+        }
+      </style>
+</head>
+
+<body class="font-['Manrope']">
+   <div class="container mx-auto px-[48px] flex items-center mt-[20px]"><a class="text-[#B0B0B0] font-normal text-[14px] leading-[26px]" href="#">Главная</a> <img class="w-[16px] h-[22px] ml-[3px]" src="./img/chevron.png" alt="chevron.png"> <a class="text-[#B0B0B0] font-normal text-[14px] leading-[26px]" href="#">Трейдерам</a> <img class="w-[16px] h-[22px] ml-[3px]" src="./img/chevron.png" alt="chevron.png"> <a class="text-[#B0B0B0] font-normal text-[14px] leading-[26px]" href="#">Текущая страница</a></div>
+   <div class="container mx-auto px-[48px]">
+        <div class="text-[34px] mt-[15px] font-semibold text-[#363946] leading-[45px]">Торговые сессии</div>
+        <p class="font-normal text-[14px] leading-[26px] mt-[7px]">Торговая сессия – это период времени, когда банки и другие участники рынка ведут активную торговую деятельность. Рынок Форекс <br> работает 24 часа в сутки с понедельника по пятницу. Трейдеры могут торговать в любое удобное время. Единственным исключением <br> являются выходные дни и международные праздники, такие как Рождество, канун Нового года и Пасха</p>
+        <a class="flex items-center mt-[3px] text-[14px] font-normal leading-[22px] text-[#4982BD]" href="#">Больше о торговых сессиях <img class="w-[16px]" src="./img/chevron1.png" alt="chevron1.png"></a>
+   </div>
+   <div class="container mx-auto px-[48px] flex justify-between mt-[60px]">
+        <div class="w-[48%]">
+            <div>
+                <div class="bg-[#F7F9FC] p-[20px]">
+                    <span class="float-left w-[5px] h-[5px] rounded-[50px] bg-[#EEA14C] mt-[11px] mr-[8px]"></span><h4 class="text-[22px] leading-[30px] text-[#B5C3D3] font-medium mb-[15px]">Азиатская</h4>
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[95px] before:border-b-[3px] before:border-solid before:border-[#64CDA7] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons.png" alt="country-icons.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Токио</h4>
+                                <p class="text-[#62CCA6] text-[18px] font-medium leading-[26px] mt-[9px]">Окончание торгов через 02:26:12</p>
+                            </span>
+                        </div>
+                        <div>
+                           <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 02:00 - 11:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">20:12</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] mt-[15px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[133px] before:border-b-[3px] before:border-solid before:border-[#64CDA7] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons2.png" alt="country-icons2.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Гонконг</h4>
+                                <p class="text-[#62CCA6] text-[18px] font-medium leading-[26px] mt-[9px]">Окончание торгов через 02:26:12</p>
+                            </span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 03:00 - 12:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">19:12</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="bg-[#F7F9FC] p-[20px]">
+                    <span class="float-left w-[5px] h-[5px] rounded-[50px] bg-[#676CEF] mt-[11px] mr-[8px]"></span><h4 class="text-[22px] leading-[30px] text-[#B5C3D3] font-medium mb-[15px]">Американская</h4>
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[483px] before:border-b-[3px] before:border-solid before:border-[#CFD2E5] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons3.png" alt="country-icons3.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Нью-Йорк</h4>
+                                <p class="text-[#878991] text-[18px] font-medium leading-[26px] mt-[9px]">Торги через 06:27:26</p>
+                            </span>
+                        </div>
+                        <div>
+                           <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 16:30 - 01:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">07:12</h2>
+                        </div>
+                    </div>
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] mt-[15px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[536px] before:border-b-[3px] before:border-solid before:border-[#CFD2E5] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons3.png" alt="country-icons3.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Чикаго</h4>
+                                <p class="text-[#878991] text-[18px] font-medium leading-[26px] mt-[9px]">Торги через 06:27:26</p>
+                            </span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 17:00 - 02:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">06:12</h2>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <div class="w-[48%]">
+            <div>
+                <div class="bg-[#F7F9FC] p-[20px]">
+                    <span class="float-left w-[5px] h-[5px] rounded-[50px] bg-[#EEA14C] mt-[11px] mr-[8px]"></span><h4 class="text-[22px] leading-[30px] text-[#B5C3D3] font-medium mb-[15px]">Европейская</h4>
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[163px] before:border-b-[3px] before:border-solid before:border-[#64CDA7] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons4.png" alt="country-icons4.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Франкфурт</h4>
+                                <p class="text-[#62CCA6] text-[18px] font-medium leading-[26px] mt-[9px]">Окончание торгов через 02:26:12</p>
+                            </span>
+                        </div>
+                        <div>
+                           <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 09:00 - 18:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">13:12</h2>
+                        </div>
+                    </div>
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] mt-[15px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[224px] before:border-b-[3px] before:border-solid before:border-[#64CDA7] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons5.png" alt="country-icons5.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Лондон</h4>
+                                <p class="text-[#62CCA6] text-[18px] font-medium leading-[26px] mt-[9px]">Окончание торгов через 02:26:12</p>
+                            </span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 10:00 - 19:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">12:12</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="bg-[#F7F9FC] p-[20px]">
+                    <span class="float-left w-[5px] h-[5px] rounded-[50px] bg-[#8D51D8] mt-[11px] mr-[8px]"></span><h4 class="text-[22px] leading-[30px] text-[#B5C3D3] font-medium mb-[15px]">Тихоокеанская</h4>
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[178px] before:border-b-[3px] before:border-solid before:border-[#64CDA7] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons6.png" alt="country-icons6.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Веллингтон</h4>
+                                <p class="text-[#62CCA6] text-[18px] font-medium leading-[26px] mt-[9px]">Окончание торгов через 02:26:12</p>
+                            </span>
+                        </div>
+                        <div>
+                           <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 01:00 - 10:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">00:12</h2>
+                        </div>
+                    </div>
+                    <div class="flex p-[20px] bg-[#FFFFFF] opacity-[0.99] justify-between rounded-[10px] mt-[15px] relative border-b-[3px] border-solid border-[#E9F0F7]">
+                        <div class="flex items-center before:absolute before:left-[7px] before:bottom-[-3px] before:content-[''] before:w-[272px] before:border-b-[3px] before:border-solid before:border-[#64CDA7] before:rounded-bl-[10px]">
+                            <img class="w-[30px] h-[30px] mr-[15px]" src="./img/country-icons6.png" alt="country-icons6.png">
+                            <span>
+                                <h4 class="text-[#363946] text-[18px] font-medium leading-[26px]">Сидней</h4>
+                                <p class="text-[#62CCA6] text-[18px] font-medium leading-[26px] mt-[9px]">Окончание торгов через 02:26:12</p>
+                            </span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#B0B0B0] text-[12px] leading-[17px] font-normal"> UTC+3 <span class="text-[#878991]"> 01:00 - 10:00</span></h3>
+                            <h2 class="text-[34px] leading-[30px] text-[#363946] mt-[4.5px]">22:41</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <div class="container mx-auto px-[48px] mt-[100px]">
+       <img src="./img/map.png" alt="map.png">
+   </div>
+   <div class="container mx-auto px-[48px] mt-[95px]">
+       <h3 class="text-[26px] leading-[35px] font-medium text-[#363946] mb-[15px]">Особенности торговых сессий</h3>
+       <p class="font-normal text-[14px] leading-[26px] text-[#363946]">Ночью, котировки, как правило, демонстрируют низкую активность, в то время как в дневное время волатильность резко возрастает. Торговые сессии на рынке Форекс различаются по времени работы и особенностям торговли. Каждая сессия может быть охарактеризована наиболее торгуемой валютой, уровнем волатильности и степенью влияния фундаментальных факторов</p>
+   </div>
+   
+
+
+
+   <div class="container mx-auto px-[48px]">
+        <div class='mt-[38px] mx-auto'>
+            <div class='mx-auto space-y-6'>
+
+                <div class="flex flex-col mb-6">
+                    <div class="flex flex-col gap-4">
+
+                        <!-- tabs -->
+                        <div class="tabs flex flex-col w-full">
+                            <!-- tabs header -->
+                            <div class="relative flex border-b-[1px] border-solid border-[#E5E8F3]">
+                                <button data-type="tabs" data-target="#tab-1"
+                                    class="active active:border-b-[2px] active:border-solid active:border-[#E5E8F3] flex flex-col gap-1 relative ">
+                                    <p class="text-sm leading-[22px] font-semibold text-[#878991] pb-[7px]">Тихоокеанская</p>
+                                </button>
+                                <button data-type="tabs" data-target="#tab-2"
+                                    class="active:border-b-[2px] active:border-solid active:border-[#E5E8F3] pl-[40px] flex flex-col gap-1 relative">
+                                    <p class="text-sm leading-[22px] font-semibold text-[#878991] pb-[7px]">Азиатская</p>
+                                </button>
+                                <button data-type="tabs" data-target="#tab-3"
+                                    class="pl-[40px] flex flex-col gap-1 relative">
+                                    <p class="text-sm leading-[22px] font-semibold text-[#878991] pb-[7px]">Европейская</p>
+                                </button>
+                                <button data-type="tabs" data-target="#tab-4"
+                                    class="pl-[40px] flex flex-col gap-1 relative">
+                                    <p class="text-sm leading-[22px] font-semibold text-[#878991] pb-[7px]">Американская</p>
+                                </button>
+                                
+                            </div>
+                            <div class="flex flex-col mt-[51px]">
+                                <div id="tab-1" role="tabpanel" class="active [&amp;.active]:block hidden transition duration-400 ease-in-out">
+                                    <div>
+                                        <div class="flex">
+                                            <div class="flex items-start p-[20px] mr-[16px] bg-[#F7F9FC] rounded-[10px] w-[308px]">
+                                                <img class="w-[24px] h-[24px] mr-[11px]" src="./img/exp.png" alt="exp.png">
+                                                <div>
+                                                    <h4 class="text-[16px] leading-[25px] font-medium text-[#363946]">Для более опытных</h4>
+                                                    <p class="mt-[5px] text-[#878991] text-[12px] leading-[17px] font-normal">Котировки начинают двигаться быстрее, особенно в первые часы торговой сессии</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex items-start p-[20px] mr-[16px] bg-[#F7F9FC] rounded-[10px] w-[308px]">
+                                                <img class="w-[24px] h-[24px] mr-[11px]" src="./img/pair.png" alt="pair.png">
+                                                <div>
+                                                    <h4 class="text-[16px] leading-[25px] font-medium text-[#363946]">Активные валютные пары</h4>
+                                                    <p class="mt-[5px] text-[#878991] text-[12px] leading-[17px] font-normal">Помимо EUR/USD, волатильны EUR/JPY и USD/JPY, а также австралийский доллар (AUD)</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex items-start p-[20px] mr-[16px] bg-[#F7F9FC] rounded-[10px] w-[308px]">
+                                                <img class="w-[24px] h-[24px] mr-[11px]" src="./img/style.png" alt="style.png">
+                                                <div>
+                                                    <h4 class="text-[16px] leading-[25px] font-medium text-[#363946]">Стиль торговли</h4>
+                                                    <p class="mt-[5px] text-[#878991] text-[12px] leading-[17px] font-normal">Рынок умеренно волатилен, поэтому можно применить любой стиль торговли</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-[35px] w-[956px]">
+                                            <p class="text-sm leading-[26px] font-normal text-[#363946]">В это время публикуются основные макроэкономические отчеты. Чаще всего в это время статистические данные выходят в Японии, Австралии и Новой Зеландии. Самыми активными парами во время азиатской торговой сессии являются EUR/JPY и USD/JPY, а также австралийский доллар (AUD). Валютная пара EUR/USD достойна особого внимания благодаря своей волатильность во время каждой торговой сессии. Согласно статистическим данным, если пара демонстрирует резкие колебания во время американской сессии, то во время азиатской сессии она обычно растет.</p>
+                                            <p class="text-sm leading-[26px] font-normal text-[#363946] mt-[10px]"> Во время азиатской сессии обычно наблюдается низкая ликвидность. Большинство валютных пар торгуются в узких диапазонах, готовясь к более сильным движениям в последующие торговые часы. Азиатские фондовые биржи часто задают тренд на оставшуюся часть торгового дня.</p>
+                                            <p class="text-sm leading-[26px] font-normal text-[#363946] mt-[10px]">Рынок умеренно волатилен, поэтому можно применить любой стиль торговли. Учитывая неспешный темп движения цены, трейдеры действуют подобно охотникам. Им приходится долго и терпеливо ждать свою добычу, но хороший выстрел может принести приличную прибыль.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-2" role="tabpanel"
+                                    class="[&amp;.active]:block hidden py-4 transition duration-400 ease-in-out">
+                                    <h3>Tabs content 2</h3>
+                                </div>
+                                <div id="tab-3" role="tabpanel"
+                                    class="[&amp;.active]:block hidden py-4 transition duration-400 ease-in-out">
+                                    <h3>Tabs content 3</h3>
+                                </div>
+                                <div id="tab-4" role="tabpanel"
+                                    class="[&amp;.active]:block hidden py-4 transition duration-400 ease-in-out">
+                                    <h3>Tabs content4</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="container mx-auto px-[48px] mt-[56px]">
+        <div class="flex">
+            <div class="bg-[#676CEF] mr-[16px] w-[632px] rounded-[12px] p-[30px] bg-[url('./img/card.png')] bg-no-repeat bg-right bg-auto">
+                <h2 class="text-white font-medium leading-[30px] text-[22px]">Открытие счета</h2>
+                <p class="mt-[5px] text-sm text-white opacity-80 font-normal leading-[26px]">Чтобы начать торговлю, вам необходимо открыть счет, так <br> же есть мозмоджность открыть демо-счет</p>
+                <div class="flex mt-[25px]">
+                    <a class="font-normal text-sm leading-[26px] text-[#1E7BE2] px-[40px] pt-[10px] pb-[12px] bg-white rounded-md mr-[20px]" href="#">Открыть торговый счет</a>
+                    <a class="font-normal text-sm leading-[26px] text-white px-[40px] pt-[10px] pb-[12px] rounded-md bg-transparent border-[1px] border-solid border-[#ffffff66]" href="#">Открыть демо-счет</a>
+                </div>
+            </div>
+            <div class="bg-[#62CCA6] mr-[16px] w-[632px] rounded-[12px] p-[30px] bg-[url('./img/p_systems.png')] bg-no-repeat bg-right bg-auto">
+                <h2 class="text-white font-medium leading-[30px] text-[22px]">Обнови свой кошелек</h2>
+                <p class="mt-[5px] text-sm text-white opacity-80 font-normal leading-[26px]">Пополните счет чтобы получить полный спектр <br> возможностей своего счета</p>
+                <div class="flex mt-[25px]">
+                    <a class="font-normal text-sm leading-[26px] text-[#1E7BE2] px-[40px] pt-[10px] pb-[12px] bg-white rounded-md mr-[20px]" href="#">Пополнить счет</a>
+                    <a class="font-normal text-sm leading-[26px] text-white px-[40px] pt-[10px] pb-[12px] rounded-md bg-transparent border-[1px] border-solid border-[#ffffff66]" href="#">Снять средства</a>
+                </div>
+            </div>
+        </div>
+   </div>
+   <script>
+            const tabs_func = function () {
+                const set_tabs = document.querySelectorAll('[data-type="tabs"]');
+                const tabIndicator = document.querySelectorAll('[role="indicator"]');
+    
+                if (set_tabs != null) {
+                    function TabClicks(tabClickEvent) {
+                        const clickTarget = tabClickEvent.currentTarget;
+                        const tabParent = tabClickEvent.currentTarget.parentNode.parentNode;
+                        const set_tabs = tabParent.querySelectorAll('[data-type="tabs"]');
+                        const tabIndicator = tabParent.querySelectorAll('[role="indicator"]');
+                        const w_set = clickTarget.offsetWidth;
+    
+                        for (let i = 0; i < set_tabs.length; i++) {
+                            set_tabs[i].classList.remove("active");
+    
+                            for (let j = 0; j < tabIndicator.length; j++) {
+                                if (clickTarget === set_tabs[i]) {
+                                    tabIndicator[j].style.left = w_set * i + 'px';
+                                }
+                            }
+                        }
+                        clickTarget.classList.add("active");
+    
+                        // content
+                        tabClickEvent.preventDefault();
+                        const isTab = tabParent.querySelectorAll('[role="tabpanel"]');
+                        for (let i = 0; i < isTab.length; i++) {
+                            isTab[i].classList.remove("active");
+                        }
+                        const activePaneId = clickTarget.getAttribute("data-target");
+                        const activePane = tabParent.querySelector(activePaneId);
+                        activePane.classList.add("active");
+                    }
+    
+                    for (let i = 0; i < set_tabs.length; i++) {
+                        set_tabs[i].addEventListener("click", TabClicks);
+                    }
+                }
+            };
+            tabs_func();
+        </script>
+</body>
+
+</html>
